@@ -1,30 +1,54 @@
-# Next.js Budget App
+# 🪙 Buddget App
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**Buddget App** is a simple and intuitive personal finance tracker built to help users manage their monthly budget, track expenses, and stay on top of their financial goals — all within a beautiful and responsive web interface.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/enyaelvis1-gmailcoms-projects/v0-next-js-budget-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/E0TQs1hEUCt)
+[🌐 Live Demo](https://buddget-app.vercel.app)
 
-## Overview
+## 📌 Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+* 💰 **Set Monthly Budget** – Define your total monthly budget and monitor how much you’ve spent and what’s remaining.
+* 🧾 **Expense Tracking** – Add and categorize expenses in real-time.
+* 📊 **Visual Insights** – View detailed summaries of your spending by category.
+* 🏆 **Achievements System** – Earn fun badges like *Budget Master* and *Super Saver* as you hit savings milestones.
+* 📄 **PDF Export** – Generate and download a PDF report of your monthly budget and expenses.
+* 📱 **Progressive Web App (PWA)** – Install the app on your device for a seamless experience.
 
-## Deployment
+## ⚙️ Tech Stack
 
-Your project is live at:
+* **Frontend**: React, Tailwind CSS
+* **Deployment**: Vercel
+* **State Management**: React Hooks & Context API
+* **Other**: HTML5, PWA Support, Responsive Design
 
-**[https://vercel.com/enyaelvis1-gmailcoms-projects/v0-next-js-budget-app](https://vercel.com/enyaelvis1-gmailcoms-projects/v0-next-js-budget-app)**
+## 🚀 Getting Started
 
-## Build your app
+Clone the repository and install dependencies:
 
-Continue building your app on:
+```bash
+git clone https://github.com/your-username/buddget-app.git
+cd buddget-app
+npm install
+npm run dev
+```
 
-**[https://v0.dev/chat/projects/E0TQs1hEUCt](https://v0.dev/chat/projects/E0TQs1hEUCt)**
+Open [http://localhost:3000](http://localhost:3000) to view the app in development mode.
 
-## How It Works
+## 📁 Folder Structure
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```plaintext
+src/
+├── components/       # Reusable UI components
+├── pages/            # Main views/pages
+├── utils/            # Helper functions
+├── context/          # App-wide state management
+├── assets/           # Icons and images
+└── styles/           # Tailwind and custom styles
+```
+
+## 📦 Deployment
+
+The app is deployed using [Vercel](https://vercel.com/). You can fork the repo and deploy your own version in a few clicks.
+
+## 📄 License
+
+This project is licensed under the MIT License.
